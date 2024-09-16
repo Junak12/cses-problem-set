@@ -11,13 +11,12 @@ using namespace std;
 #include <ext/pb_ds/tree_policy.hpp>
 using namespace __gnu_pbds;
 
-// Define an ordered set to store pairs {value, index}
 template<class T>
 using oset = tree<T, null_type, less<T>, rb_tree_tag, tree_order_statistics_node_update>;
 
 int main(){
     opt();
-    int t = 1; // Assuming a single test case
+    int t = 1; 
 
     while (t--) {
         ll n, k;
